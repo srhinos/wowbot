@@ -251,7 +251,7 @@ class WoWBot(discord.Client):
                     await self.timed_message(message.channel, message, cannotset)
                     return
 
-                rolename = ' '.join(args)
+                rolename = ' '.join(args).lower()
                 role = discord.utils.get(message.server.roles, name=rolename)
 
                 if not role:
