@@ -1,0 +1,28 @@
+{
+  "133724045165330432": {
+    "messages": {
+      "1492755611.840051": {
+        "modreply": "77511942717046784",
+        "content": "(ANON)example reply"
+      },
+      "1492755600.586038": {
+        "modreply": "77511942717046784",
+        "content": "example reply"
+      },
+      "1492755587.332145": {
+        "modreply": null,
+        "content": "example DM"
+      }
+    },
+    "answered": true
+  },
+  "77511942717046784": {
+    "messages": {
+      "1492752082.546846": {
+        "modreply": null,
+        "content": "aaa"
+      }
+    },
+    "answered": true
+  }
+}
