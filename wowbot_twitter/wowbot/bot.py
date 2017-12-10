@@ -85,6 +85,7 @@ class WoWBot(discord.Client):
             return self.twitAPI.request('statuses/user_timeline', {'screen_name': twitter_handle,
                                                                     'exclude_replies': True,
                                                                     'include_rts': False,
+                                                                    'tweet_mode': "extended",
                                                                     'count': 1})
         for handle in self.since_id.keys():
             future = loop.run_in_executor(executor, get_twitter_data, handle)
